@@ -10,10 +10,8 @@ export function renderAlumnos(alumnos) {
         <td>${alumno.email}</td>
         <td>
           <button class="btn btn-warning btn-sm editar" data-id="${alumno.id}">
-            ✏️
           </button>
           <button class="btn btn-danger btn-sm eliminar" data-id="${alumno.id}">
-            🗑️
           </button>
         </td>
       </tr>
